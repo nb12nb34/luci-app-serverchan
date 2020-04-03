@@ -11,9 +11,9 @@ name: upstream
 on:
   schedule:
     - cron: 00 20 * * *
-  push:
-     branches: 
-       - master
+  # push:
+     # branches: 
+       # - master
 
 jobs:
 
