@@ -6,11 +6,11 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: Merge-upstream
+name: upstream
 
 on:
   schedule:
-    - cron: 30 19 * * *
+    - cron: 00 20 * * *
   # push:
   #   branches: 
   #     - master
